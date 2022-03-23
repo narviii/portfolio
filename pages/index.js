@@ -7,7 +7,6 @@ import projects from "../data/projects"
 import bmprojs from "../data/bmproj"
 
 export default function Home() {
-  console.log(projects)
   return (
     <div className="container mx-auto mt-5 pb-10 max-w-5xl pt-4 px-8 bg-black">
       <header className="text-amber-600">
@@ -30,7 +29,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hidden md:block md:w-72 md:h-72 mx-auto">
-            <Image className="rounded-full" src={profilePic} />
+            <Image className="rounded-full" src={profilePic} alt="Vlad Sofronov profile picture."/>
           </div>
         </div>
       </header>
@@ -42,6 +41,7 @@ export default function Home() {
           <div className="my-5">
             {projects.map(item => <Card
               title={item.title}
+              key={item.title}
               link={item.link}
               github={item.github}
               about={item.about}
@@ -60,6 +60,7 @@ export default function Home() {
               github={item.github}
               about={item.about}
               stack={item.stack}
+              key = {item.title}
             />)}
           </div>
         </section>

@@ -8,14 +8,14 @@ export default function Card({ title, link, about, github, stack }) {
                         {title}
                     </h3>
                 </a>
-                {github != "" ? <a href={github}> <img className="ml-2" src="/github.svg" /> </a> : null}
+                {github != "" ? <a href={github}> <img className="ml-2" src="/github.svg" alt="link to github" /> </a> : null}
 
             </div>
             <p className="text-gray-300">
                 {about}
             </p>
             <div className="my-1 flex flex-wrap">
-                {stack.map(item => <Pill title={item} />)}
+                {stack.map(item => <Pill key={item} title={item} />)}
             </div>
         </article>
 

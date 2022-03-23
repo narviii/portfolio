@@ -39,6 +39,14 @@ const projects = [
         stack:['React','TailwindCSS']
 
     },
+    {
+        title: "Portfolio showcase",
+        link: "https://vlad.sofronov.co",
+        github: "https://github.com/narviii/portfolio",
+        about: "This website.",
+        stack:['React','NextJS','TailwindCSS']
+
+    },
 ]
 
 export default projects

@@ -72,7 +72,7 @@ export default function Home() {
         </main>
         <footer>
           <p className="text-amber-600">
-            Thanks for your attention! Feel free to reach out to me.
+            Thanks for your attention! Feel free to <a href="mailto:narviii@gmail.com">reach out</a> to me.
           </p>
         </footer>
       </div>

@@ -47,6 +47,14 @@ const projects = [
         stack:['React','NextJS','TailwindCSS']
 
     },
+    {
+        title: "UA2Canada.info",
+        link: "https://www.ua2canada.info/",
+        github: "https://github.com/narviii/ukraine2canada",
+        about: "An effort to assemble information for Ukrainians, who are fleeing war to help them to get to Canada. CUAET programm, FAQ.",
+        stack:['Docusaurus']
+
+    },
 ]
 
 export default projects

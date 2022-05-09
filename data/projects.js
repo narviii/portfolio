@@ -55,6 +55,14 @@ const projects = [
         stack:['Docusaurus']
 
     },
+    {
+        title: "CUAET visa tracker",
+        link: "https://track.ua2canada.info/",
+        github: "https://github.com/narviii/ukraine2canada",
+        about: "A tracker where ukrainians can share how long their visa application process took, so others can gauge what's going on. ",
+        stack:['NextJS','MaterialUI','Telegram API']
+
+    },
 ]
 
 export default projects
